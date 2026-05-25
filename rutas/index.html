@@ -160,6 +160,9 @@
   <script>
    /* 1. DEFINICIÓN DE DATOS */
     const grupos = {
+          "La Clásica": [
+        { gpx: "Clasica.gpx", url: "https://es.wikiloc.com/rutas-mountain-bike/6c-la-clasica-lo-tiene-todo-175650874", color: "blue" }
+      ],
       "Rodeando la Muela": [
         { gpx: "Tecnicamuela.gpx", url: "https://es.wikiloc.com/rutas-mountain-bike/2025-jerica-no3-6-circular-tecnica-por-la-muela-jonjordana-lateral-cruz-y-tuerto-wikiloc-261896293", color: "red" },
         { gpx: "rodadoramuela.gpx", url: "https://es.wikiloc.com/rutas-mountain-bike/2025-jerica-no3-1-rodadora-a-la-muela-todo-pista-muy-muy-sencilla-sentido-horario-230179483", color: "yellow" },
@@ -348,6 +351,7 @@ let rutaSeleccionada = null;
       contenedor.innerHTML = `
         <div id="btnMenu" class="menu-button">≡</div>
         <div id="menuPanel" class="menu-panel">
+          <div class="menu-item" onclick="cargarGrupo('La Clásica')">La Clásica</div>
           <div class="menu-item" onclick="cargarGrupo('Rodeando la Muela')">Rodeando la Muela</div>
           <div class="menu-item" onclick="cargarGrupo('Visitamos Caudiel')">Visitamos Caudiel</div>
           <div class="menu-item" onclick="cargarGrupo('Navarza adentro')">Navarza adentro</div>
