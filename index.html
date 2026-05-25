@@ -85,8 +85,10 @@ main {
   display: flex;
   flex-direction: column; /* <-- ESTA LÍNEA HACE LA MAGIA */
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;    /* <-- CAMBIADO: Alinea los botones a la derecha */
   gap: 30px;   /* <-- REDUCIDO A 30px PARA QUE QUEDE MEJOR EN VERTICAL */
+  padding-right: 80% ;     /* <-- AÑADIDO: Hueco de seguridad con el borde derecho (puedes subirlo o bajarlo) */
+  
 }
 
 /* ===== BOTONES ===== */
