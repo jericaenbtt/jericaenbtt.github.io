@@ -170,6 +170,11 @@
         { gpx: "Paredes.gpx", url: "https://es.wikiloc.com/rutas-mountain-bike/2025-jerica-no5-1-a-pistera-salida-por-navarza-vuelta-por-pista-hacia-paredes-y-novaliches-263711742", color: "yellow" },
         { gpx: "Navarzapistas.gpx", url: "https://es.wikiloc.com/rutas-mountain-bike/2025-jerica-no5-1-b-salida-por-navarza-hasta-lateral-albares-algo-de-pista-por-altomira-wikiloc-263698505", color: "blue" },
         { gpx: "Altocruz.gpx", url: "https://es.wikiloc.com/rutas-mountain-bike/2025-jerica-no5-7-alto-de-la-cruz-bajadas-divertidas-nivel-medio-alto-algunas-263709547", color: "red" }
+      ],
+                  "Pasico alemán": [
+        { gpx: "pasicofacil.gpx", url: "https://es.wikiloc.com/rutas-mountain-bike/2025-jerica-no2-c-la-losa-y-el-pasico-aleman-2-veces-senda-hasta-circuito-barhein-corta-dura-y-nada-266127322", color: "yellow" },
+        { gpx: "pasicomedio.gpx", url: "https://es.wikiloc.com/rutas-mountain-bike/2025-jerica-no2-sube-y-baja-continuo-no-iniciacion-pasico-aleman-losa-sargal-227473816", color: "blue" },
+        { gpx: "pasicodificil.gpx", url: "https://es.wikiloc.com/rutas-mountain-bike/1c-mucha-senda-torre-incendios-jonjordana-y-vuelta-por-sendas-de-sagal-y-ula-175886933", color: "red" }
       ]
     };
 
@@ -327,6 +332,7 @@ let rutaSeleccionada = null;
           <div class="menu-item" onclick="cargarGrupo('Rodeando la Muela')">Rodeando la Muela</div>
           <div class="menu-item" onclick="cargarGrupo('Visitamos Caudiel')">Visitamos Caudiel</div>
           <div class="menu-item" onclick="cargarGrupo('Navarza adentro')">Navarza adentro</div>
+          <div class="menu-item" onclick="cargarGrupo('Pasico alemán')">Navarza adentro</div>
         </div>`;
       L.DomEvent.disableClickPropagation(contenedor);
       contenedor.querySelector('#btnMenu').onclick = function() {
