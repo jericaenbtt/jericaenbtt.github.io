@@ -340,9 +340,57 @@ main {
   </div>
 </div>
 
+<script>
+  // Control del Menú Hamburguesa
+  const toggle = document.getElementById("menu-toggle");
+  const menu = document.getElementById("mobile-menu");
+  const btnCerrarMenu = document.getElementById("btn-cerrar-menu");
 
+  toggle.addEventListener("click", () => {
+    menu.classList.toggle("open");
+  });
+  // Cerrar menú al pulsar el enlace de cerrar
+  btnCerrarMenu.addEventListener("click", (e) => {
+    e.preventDefault();
+    menu.classList.remove("open");
+  });
+
+ // Control de la Ventana Emergente (Modal)
+  const modal = document.getElementById("mi-modal");
+  const btnInfoPC = document.getElementById("btn-info");
+  const btnInfoMovil = document.getElementById("btn-info-movil");
+  const btnCerrarModal = document.getElementById("btn-cerrar");
+
+  // Función única para abrir el modal
+  const abrirModal = () => {
+    modal.style.display = "flex";
+  };
+
+  // Asignar apertura a ambos botones (PC y Móvil)
+  btnInfoPC.addEventListener("click", abrirModal);
+  btnInfoMovil.addEventListener("click", () => {
+    abrirModal();
+    menu.classList.remove("open"); // Opcional: cierra el menú móvil al abrir la info
+  });
+
+  // Cerrar modal al pulsar la X
+  btnCerrarModal.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  // Cerrar modal al pulsar fuera del recuadro blanco
+  window.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
   
+</script>
   
+<!-- Menú móvil (Estructura corregida y completada) -->
+<nav id="mobile-menu">
+  <!-- Nuevo botón Info Móvil delante de todos -->
+  <button id="btn-info-movil">Info</button>  
   <!-- 1. Corregido a minúscula para que coincida con la carpeta -->
   <a href="sendas/index.html">Sendas</a>
   
@@ -355,39 +403,6 @@ main {
   <a href="#" onclick="document.getElementById('mobile-menu').classList.remove('open')">Cerrar Menú</a>
 </nav>
 
-
-<script>
-  const toggle = document.getElementById("menu-toggle");
-  const menu = document.getElementById("mobile-menu");
-
-  toggle.addEventListener("click", () => {
-    menu.classList.toggle("open");
-  });
-</script>
-
-  <script>
-  // Obtener elementos del DOM
-  const modal = document.getElementById("mi-modal");
-  const btnInfo = document.getElementById("btn-info");
-  const btnCerrar = document.getElementById("btn-cerrar");
-
-  // Abrir ventana al pulsar Info
-  btnInfo.addEventListener("click", () => {
-    modal.style.display = "flex";
-  });
-
-  // Cerrar ventana al pulsar la X
-  btnCerrar.addEventListener("click", () => {
-    modal.style.display = "none";
-  });
-
-  // Cerrar ventana al pulsar fuera del recuadro blanco
-  window.addEventListener("click", (e) => {
-    if (e.target === modal) {
-      modal.style.display = "none";
-    }
-  });
-</script>
 
 </body>
 </html>
