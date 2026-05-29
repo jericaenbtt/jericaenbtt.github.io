@@ -219,6 +219,47 @@ main {
 #mobile-menu.open {
   display: flex;
 }
+
+/* ===== VENTANA EMERGENTE (MODAL) ===== */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 2000;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modal-contenido {
+  background-color: #fff;
+  color: #333;
+  padding: 30px;
+  border-radius: 14px;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.cerrar-modal {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.cerrar-modal:hover {
+  color: #000;
+}
+
+  
 </style>
 </head>
 
@@ -262,6 +303,18 @@ main {
 
 </div>
 
+<!-- Estructura de la ventana emergente -->
+<div id="mi-modal" class="modal">
+  <div class="modal-contenido">
+    <span class="cerrar-modal" id="btn-cerrar">&times;</span>
+    <!-- Aquí puedes cambiar el texto libre cuando quieras -->
+    <p>página de pruebas</p>
+  </div>
+</div>
+
+
+
+  
 <footer>
   Página en construcción. Contacto: butradiego@hotmail.com
 </footer>
@@ -289,6 +342,30 @@ main {
 
   toggle.addEventListener("click", () => {
     menu.classList.toggle("open");
+  });
+</script>
+
+  <script>
+  // Obtener elementos del DOM
+  const modal = document.getElementById("mi-modal");
+  const btnInfo = document.getElementById("btn-info");
+  const btnCerrar = document.getElementById("btn-cerrar");
+
+  // Abrir ventana al pulsar Info
+  btnInfo.addEventListener("click", () => {
+    modal.style.display = "flex";
+  });
+
+  // Cerrar ventana al pulsar la X
+  btnCerrar.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  // Cerrar ventana al pulsar fuera del recuadro blanco
+  window.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
   });
 </script>
 
