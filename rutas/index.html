@@ -120,22 +120,32 @@
       left: 0; top: 0;
       width: 100%; height: 100%;
       background-color: rgba(0,0,0,0.5);
+      overflow-y: auto; /* Permite scroll vertical si el contenido supera la pantalla */
+      -webkit-overflow-scrolling: touch; /* Suaviza el scroll en iPhones */
     }
     .modal-content {
       background: white;
-      margin: 15% auto;
+      margin: 10vh auto;
       padding: 20px;
       border-radius: 10px;
       width: 80%;
       max-width: 400px;
       text-align: center;
       position: relative;
+      box-sizing: border-box;
     }
     .close-modal {
       position: absolute;
       right: 15px; top: 10px;
       cursor: pointer;
       font-size: 28px;
+    }
+     /* Ajuste extra específico para smartphones muy pequeños */
+    @media (max-width: 480px) {
+      .modal-content {
+        margin: 5vh auto; /* Reduce el margen superior en móviles para ganar espacio */
+        padding: 15px;
+      }
     }
   </style>
 </head>
