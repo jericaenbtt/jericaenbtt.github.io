@@ -233,12 +233,17 @@ main {
   </header>
 
   <main>
+    
+        <!-- <div class="boton inactivo">
+      Deshabilitado
+    </div> -->
+    
     <a
       href="sendas/index.html"
       target="_blank"
       rel="noopener noreferrer"
       class="top"
-    <!--   data-tooltip="Aquí se ven las sendas grabadas." -->
+    <!-- data-tooltip="Aquí se ven las sendas grabadas." -->
     >
       Sendas ↗
     </a>
@@ -247,15 +252,13 @@ main {
       href="rutas/index.html"
       target="_blank"
       rel="noopener noreferrer"
-      class="boton"
+      class="boton">
     <!--   data-tooltip="Rutas circulares origen Jérica." -->
-    >
+    
       rutas circulares↗
     </a>
     
-    <!-- <div class="boton inactivo">
-      Deshabilitado
-    </div> -->
+
   </main>
 
 </div>
@@ -266,13 +269,15 @@ main {
 
 
 <nav id="mobile-menu">
+   <!-- <a class="disabled">Deshabilitado</a> -->
+  
   <!-- 1. Corregido a minúscula para que coincida con la carpeta -->
   <a href="sendas/index.html">Sendas</a>
   
   <!-- 2. Corregido 'class' por 'href' y puesto en minúscula -->
   <a href="rutas/index.html">Rutas circulares</a>
   
-   <!-- <a class="disabled">Deshabilitado</a> -->
+ 
   
   <!-- 3. Añadido cierre del menú al pulsar en Información o cerrar -->
   <a href="#" onclick="document.getElementById('mobile-menu').classList.remove('open')">Cerrar Menú</a>
