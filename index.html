@@ -325,8 +325,24 @@ main {
 </footer>
 
 
+
+
+  <!-- Menú móvil (Estructura corregida y completada) -->
 <nav id="mobile-menu">
-   <!-- <a class="disabled">Deshabilitado</a> -->
+  <!-- Nuevo botón Info Móvil delante de todos -->
+  <button id="btn-info-movil">Info</button>  
+  <!-- 1. Corregido a minúscula para que coincida con la carpeta -->
+  <a href="sendas/index.html">Sendas</a>
+  
+  <!-- 2. Corregido 'class' por 'href' y puesto en minúscula -->
+  <a href="rutas/index.html">Rutas circulares</a>
+  
+ 
+  
+  <!-- 3. Añadido cierre del menú al pulsar en Información o cerrar -->
+    <a href="#" id="btn-cerrar-menu">Cerrar Menú</a>
+  <!--  <a href="#" onclick="document.getElementById('mobile-menu').classList.remove('open')">Cerrar Menú</a>-->
+</nav>
 
 
 <script>
