@@ -12,6 +12,8 @@
   <time>2026-06-01T10:56:50.312Z</time>
   <bounds minlat="39.860724" minlon="-0.690594" maxlat="39.949346" maxlon="-0.417309"/>
 </metadata>
+<wpt lat="39.911592" lon="-0.547622"><ele>477.441</ele><name>Novaliches</name></wpt>
+
 <trk>
   <trkseg>
     <trkpt lat="39.913615" lon="-0.548815"><ele>485.016</ele><time>2025-04-12T07:17:53Z</time></trkpt>
