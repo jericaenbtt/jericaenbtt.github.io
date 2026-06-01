@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx creator="WTracks"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+  <name>Wikiloc - 2025 - Jérica Nº3-4. Circular a la Muela larga con muchas 'cosas', pero todas realizables, nivel medio.</name>
+  <desc></desc>
+  <author><name>WTracks</name></author>
+  <link href='https://opoto.github.io/wtracks/'>
+    <text>WTracks</text>
+    <type>text/html</type>
+  </link>
+  <time>2026-06-01T11:31:30.479Z</time>
+  <bounds minlat="39.856981" minlon="-0.628967" maxlat="39.901309" maxlon="-0.492325"/>
+</metadata>
+<wpt lat="39.850499" lon="-0.537941"><ele>551.4</ele><time>2025-09-04T20:28:59.255Z</time><name>Tramo muro</name></wpt>
+<trk>
+  <trkseg>
+    <trkpt lat="39.874768" lon="-0.567555"><ele>648</ele><time>2022-08-22T06:13:46Z</time></trkpt>
+    <trkpt lat="39.874207" lon="-0.56762"><ele>647.41</ele><time>2022-08-22T06:11:30Z</time></trkpt>
+    <trkpt lat="39.873251" lon="-0.569122"><ele>645.587</ele><time>2022-08-22T06:10:54Z</time></trkpt>
+    <trkpt lat="39.87279" lon="-0.56953"><ele>639.895</ele><time>2022-08-22T06:09:47Z</time></trkpt>
+    <trkpt lat="39.871983" lon="-0.569551"><ele>635.674</ele><time>2022-08-22T06:08:55Z</time></trkpt>
+    <trkpt lat="39.871061" lon="-0.569293"><ele>634.452</ele><time>2022-08-22T06:08:13Z</time></trkpt>
+    <trkpt lat="39.869721" lon="-0.569648"><ele>617.266</ele><time>2024-03-09T12:20:34.460Z</time></trkpt>
+    <trkpt lat="39.870569" lon="-0.570694"><ele>613.154</ele><time>2024-03-09T12:20:54.460Z</time></trkpt>
+    <trkpt lat="39.871528" lon="-0.570978"><ele>610.756</ele><time>2024-03-09T12:21:44.460Z</time></trkpt>
+    <trkpt lat="39.871652" lon="-0.571139"><ele>613.011</ele><time>2024-03-09T12:21:54.460Z</time></trkpt>
+    <trkpt lat="39.871277" lon="-0.57174"><ele>612.709</ele><time>2024-03-09T12:22:14.460Z</time></trkpt>
+    <trkpt lat="39.872187" lon="-0.574046"><ele>627.787</ele><time>2024-03-09T12:23:24.460Z</time></trkpt>
+    <trkpt lat="39.871907" lon="-0.573633"><ele>626.658</ele><time>2024-03-09T12:23:44.460Z</time></trkpt>
+    <trkpt lat="39.87108" lon="-0.572973"><ele>630.825</ele><time>2024-03-09T12:24:04.460Z</time></trkpt>
+    <trkpt lat="39.870281" lon="-0.573424"><ele>627.066</ele><time>2024-03-09T12:24:14.460Z</time></trkpt>
+    <trkpt lat="39.869193" lon="-0.572898"><ele>619.553</ele><time>2024-03-09T12:24:24.460Z</time></trkpt>
+    <trkpt lat="39.866937" lon="-0.572115"><ele>604.731</ele><time>2024-03-09T12:24:44.460Z</time></trkpt>
+    <trkpt lat="39.865693" lon="-0.570796"><ele>602.26</ele><time>2024-03-09T12:24:54.460Z</time></trkpt>
+    <trkpt lat="39.86571" lon="-0.570576"><ele>600.778</ele><time>2024-03-09T12:25:04.460Z</time></trkpt>
+    <trkpt lat="39.865553" lon="-0.570409"><ele>598.942</ele><time>2024-03-09T12:25:24.460Z</time></trkpt>
+    <trkpt lat="39.866002" lon="-0.569986"><ele>594.834</ele><time>2024-03-09T12:25:54.460Z</time></trkpt>
+    <trkpt lat="39.865702" lon="-0.569653"><ele>587.655</ele><time>2024-03-09T12:26:04.460Z</time></trkpt>
+    <trkpt lat="39.865697" lon="-0.56946"><ele>584.81</ele><time>2024-03-09T12:26:14.460Z</time></trkpt>
+    <trkpt lat="39.865862" lon="-0.567909"><ele>575.309</ele><time>2024-03-09T12:26:54.460Z</time></trkpt>
+    <trkpt lat="39.865739" lon="-0.567534"><ele>579.475</ele><time>2024-03-09T12:27:04.460Z</time></trkpt>
+    <trkpt lat="39.865953" lon="-0.56681"><ele>592.196</ele><time>2024-03-09T12:27:24.460Z</time></trkpt>
+    <trkpt lat="39.865677" lon="-0.566665"><ele>598.843</ele><time>2024-03-09T12:27:34.460Z</time></trkpt>
+    <trkpt lat="39.865677" lon="-0.566161"><ele>599.534</ele><time>2024-03-09T12:27:44.460Z</time></trkpt>
+    <trkpt lat="39.865491" lon="-0.565737"><ele>601.651</ele><time>2024-03-09T12:27:54.460Z</time></trkpt>
+    <trkpt lat="39.865299" lon="-0.562577"><ele>591.639</ele><time>2026-06-01T11:51:15.508Z</time></trkpt>
+    <trkpt lat="39.86562" lon="-0.561966"><ele>596.478</ele><time>2026-06-01T11:51:25.508Z</time></trkpt>
+  </trkseg>
+</trk></gpx>
