@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx creator="WTracks"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+  <name>Wikiloc - 2025- Jérica Nº5-4. Vía Verde+Martinete+ Bajadas zona Altomira+ Los Ángeles.</name>
+  <desc></desc>
+  <author><name>WTracks</name></author>
+  <link href='https://opoto.github.io/wtracks/'>
+    <text>WTracks</text>
+    <type>text/html</type>
+  </link>
+  <time>2026-06-01T10:20:12.522Z</time>
+  <bounds minlat="39.878892" minlon="-0.528492" maxlat="39.884433" maxlon="-0.511411"/>
+</metadata>
+<trk>
+  <trkseg>
+    <trkpt lat="39.879251" lon="-0.518977"><ele>509.711</ele><time>2024-04-28T07:31:11.134Z</time></trkpt>
+    <trkpt lat="39.879924" lon="-0.519888"><ele>506.762</ele><time>2024-04-28T07:31:26.118Z</time></trkpt>
+    <trkpt lat="39.880314" lon="-0.520175"><ele>507.283</ele><time>2024-04-28T07:31:33.127Z</time></trkpt>
+    <trkpt lat="39.880982" lon="-0.519913"><ele>493.511</ele><time>2024-04-28T07:31:43.132Z</time></trkpt>
+    <trkpt lat="39.881731" lon="-0.519983"><ele>487.609</ele><time>2024-04-28T07:31:52.129Z</time></trkpt>
+    <trkpt lat="39.882844" lon="-0.520439"><ele>481.368</ele><time>2024-04-28T07:32:09.120Z</time></trkpt>
+    <trkpt lat="39.883065" lon="-0.520203"><ele>480.392</ele><time>2024-04-28T07:32:16.129Z</time></trkpt>
+    <trkpt lat="39.882808" lon="-0.519604"><ele>475.132</ele><time>2024-04-28T07:32:32.133Z</time></trkpt>
+    <trkpt lat="39.881339" lon="-0.518371"><ele>447.267</ele><time>2024-04-28T07:33:25.122Z</time></trkpt>
+    <trkpt lat="39.88126" lon="-0.518302"><ele>455</ele></trkpt>
+    <trkpt lat="39.881268" lon="-0.518219"><ele>455</ele></trkpt>
+    <trkpt lat="39.881305" lon="-0.51817"><ele>441.234</ele><time>2024-04-28T07:33:34.112Z</time></trkpt>
+    <trkpt lat="39.881371" lon="-0.518232"><ele>455</ele><time>2024-04-28T07:34:20.129Z</time></trkpt>
+    <trkpt lat="39.881449" lon="-0.518259"><ele>455</ele><time>2026-06-01T10:40:39.332691411Z</time></trkpt>
+    <trkpt lat="39.881522" lon="-0.518224"><ele>455</ele><time>2026-06-01T10:40:49.332694467Z</time></trkpt>
+    <trkpt lat="39.8816" lon="-0.518181"><ele>455</ele><time>2024-04-28T07:34:34.120Z</time></trkpt>
+    <trkpt lat="39.881672" lon="-0.518106"><ele>443</ele></trkpt>
+    <trkpt lat="39.881915" lon="-0.518036"><ele>443</ele></trkpt>
+    <trkpt lat="39.881983" lon="-0.518085"><ele>443</ele></trkpt>
+    <trkpt lat="39.882048" lon="-0.518235"><ele>443</ele></trkpt>
+    <trkpt lat="39.882122" lon="-0.51823"><ele>443</ele></trkpt>
+    <trkpt lat="39.882372" lon="-0.51835"><ele>470</ele></trkpt>
+    <trkpt lat="39.882425" lon="-0.518106"><ele>443</ele></trkpt>
+    <trkpt lat="39.882497" lon="-0.517878"><ele>443</ele><time>2024-04-28T07:34:54.127Z</time></trkpt>
+  </trkseg>
+</trk></gpx>
