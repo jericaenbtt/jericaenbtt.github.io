@@ -12,6 +12,8 @@
   <time>2026-06-01T10:20:12.522Z</time>
   <bounds minlat="39.878892" minlon="-0.528492" maxlat="39.884433" maxlon="-0.511411"/>
 </metadata>
+
+<wpt lat="39.88126" lon="-0.518302"><ele>455</ele><name>Altomira</name></wpt>
 <trk>
   <trkseg>
     <trkpt lat="39.879251" lon="-0.518977"><ele>509.711</ele><time>2024-04-28T07:31:11.134Z</time></trkpt>
